@@ -6,21 +6,21 @@
 //
 //  HIERARCHY:
 //
-//  A.   IEnumerable<T>
-//  A.1    ICollection<T>
-//  A.1.1    IList<T>
-//  A.1.1.1    List<T>
-//  A.1.1.2    T[]  Array
-//  A.1.1.3    LinkedList<T>
-//  A.1.1.4    ReadOnlyCollection<T>
-//  A.1.2    IDictionary<TKey, TValue>
-//  A.1.2.1    Dictionary<TKey, TValue>
-//  A.1.2.2    SortedDictionary<TKey, TValue>
-//  A.1.2.3    SortedList<TKey, TValue>
-//  A.1.2.4    ReadOnlyDictionary<TKey, TValue>
-//  A.1.3    ISet<T>
-//  A.1.3.1    HashSet<T>
-//  A.1.3.2    SortedSet<T>
+//  .   IEnumerable<T>
+//  A    ICollection<T>
+//  A.1    IList<T>
+//  A.1.1    List<T>
+//  A.1.2    T[]  Array
+//  A.1.3    LinkedList<T>
+//  A.1.4    ReadOnlyCollection<T>
+//  A.2    IDictionary<TKey, TValue>
+//  A.2.1    Dictionary<TKey, TValue>
+//  A.2.2    SortedDictionary<TKey, TValue>
+//  A.2.3    SortedList<TKey, TValue>
+//  A.2.4    ReadOnlyDictionary<TKey, TValue>
+//  A.3    ISet<T>
+//  A.3.1    HashSet<T>
+//  A.3.2    SortedSet<T>
 //
 //  B.   Read-Only Interfaces (.NET 4.5+)
 //  B.1    IReadOnlyCollection<T>
