@@ -1,4 +1,5 @@
 ﻿// ============================================================
+//  By Dr. Ali A. Ahmed
 //  C# Collections — Complete Code Examples
 //  Ordered by Interface Inheritance Hierarchy
 // ============================================================
@@ -31,13 +32,6 @@
 //         ⚠ does NOT implement ICollection<T> — by design (protects FIFO/LIFO contract)
 //  C.1    Queue<T>
 //  C.2    Stack<T>
-//
-//  D.   Concurrent Collections (.NET 4.0+)
-//  D.1    ConcurrentDictionary<TKey, TValue>
-//  D.2    ConcurrentQueue<T>
-//  D.3    ConcurrentStack<T>
-//  D.4    ConcurrentBag<T>
-//
 // ============================================================
 
 using System;
