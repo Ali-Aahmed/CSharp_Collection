@@ -17,7 +17,6 @@
 //  A.2.1    Dictionary<TKey, TValue>
 //  A.2.2    SortedDictionary<TKey, TValue>
 //  A.2.3    SortedList<TKey, TValue>
-//  A.2.4    ReadOnlyDictionary<TKey, TValue>
 //  A.3    ISet<T>
 //  A.3.1    HashSet<T>
 //  A.3.2    SortedSet<T>
