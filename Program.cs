@@ -155,7 +155,7 @@ namespace CSharpCollectionsGuide
             Console.WriteLine("\n=== A.1.1.1  List<T> ===");
 
             var students = new List<string>();
-           // List<string> students2 = new List<string>(5);
+            // List<string> students2 = new List<string>(5);
             students.Add("Ahmed");
             students.Add("Sara");
             students.Add("Omar");
@@ -222,7 +222,7 @@ namespace CSharpCollectionsGuide
             // Multi-dimensional
             int[,] matrix = new int[2, 3] { { 1, 2, 3 }, { 4, 5, 6 } };
             Console.WriteLine("matrix[1,2]: " + matrix[1, 2]);  // 6
-            
+
             // Array to List conversion
             var list = new List<int>(grades);
             list.Add(100); // Now we can grow
@@ -291,7 +291,7 @@ namespace CSharpCollectionsGuide
             Console.WriteLine("Count: " + readOnly.Count);   // 3
             Console.WriteLine("Index 0: " + readOnly[0]);    // C#
 
-            
+
             // Live view — changes to source are reflected here
             source.Add("Go");
             Console.WriteLine("After source.Add: " + readOnly.Count); // 4
@@ -715,9 +715,9 @@ namespace CSharpCollectionsGuide
             Console.WriteLine("Undo: " + undoStack.Pop()); // Bold selection
             Console.WriteLine("Undo: " + undoStack.Pop()); // Type ' World'
 
-        } 
+        }
     }
-     
+
     // ============================================================
     // QUICK COMPARISON — Performance at a glance
     // ============================================================
@@ -751,33 +751,33 @@ namespace CSharpCollectionsGuide
     class Program
     {
         static void Main(string[] args)
-        { 
-          
-           // IEnumerableExamples.Run();          // 
-           // ICollectionExamples.Run();          // A.
-          
-           // IListExamples.Run();                // A.1
-             //ListExamples.Run();                 // A.1.1
-           // ArrayExamples.Run();                // A.1.2
-           // LinkedListExamples.Run();           // A.1.3
-           // ReadOnlyCollectionExamples.Run();   // A.1.4
-          
-           // IDictionaryExamples.Run();          // A.2
-            //DictionaryExamples.Run();           // A.2.1
-            //SortedDictionaryExamples.Run();     // A.2.2
-            //SortedListExamples.Run();           // A.2.3
-            //ReadOnlyDictionaryExamples.Run();   // A.2.4
+        {
 
-             //ISetExamples.Run();                 // A.3
-             //HashSetExamples.Run();              // A.3.1
-             //SortedSetExamples.Run();            // A.3.2
+            IEnumerableExamples.Run();          // 
+            ICollectionExamples.Run();          // A.
 
-            //// B.  Read-Only Interfaces
-             //ReadOnlyInterfaceExamples.Run();    // B.1, B.2, B.3
+            IListExamples.Run();                // A.1
+            ListExamples.Run();                 // A.1.1
+            ArrayExamples.Run();                // A.1.2
+            LinkedListExamples.Run();           // A.1.3
+            ReadOnlyCollectionExamples.Run();   // A.1.4
 
-            //// C.  Queue & Stack
-           //QueueExamples.Run();                // C.1
-           // StackExamples.Run();                // C.2
+            IDictionaryExamples.Run();          // A.2
+            DictionaryExamples.Run();           // A.2.1
+            SortedDictionaryExamples.Run();     // A.2.2
+            SortedListExamples.Run();           // A.2.3
+            ReadOnlyDictionaryExamples.Run();   // A.2.4
+
+            ISetExamples.Run();                 // A.3
+            HashSetExamples.Run();              // A.3.1
+            SortedSetExamples.Run();            // A.3.2
+
+            // B.  Read-Only Interfaces
+            ReadOnlyInterfaceExamples.Run();    // B.1, B.2, B.3
+
+            // C.  Queue & Stack
+            QueueExamples.Run();                // C.1
+            StackExamples.Run();                // C.2
 
 
             Console.WriteLine("\n\nAll examples completed.");
@@ -785,4 +785,4 @@ namespace CSharpCollectionsGuide
         }
     }
 
-}  
+}
